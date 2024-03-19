@@ -3,11 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="apiTesting.HttpRequests">
+      <class name="apiTesting.WaysToHandlePOSTMethod">
         <methods>
-          <include name="createUser"/>
+          <include name="WaysPostMethod"/>
+          <include name="deleteRecord"/>
         </methods>
-      </class> <!-- apiTesting.HttpRequests -->
+      </class> <!-- apiTesting.WaysToHandlePOSTMethod -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
