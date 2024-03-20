@@ -1,0 +1,4 @@
+apiTesting\HttpRequests.class
+apiTesting\Pojo_PostRequest.class
+apiTesting\WaysToHandlePOSTMethod.class
+com\qa\test\GetAPITest.class
