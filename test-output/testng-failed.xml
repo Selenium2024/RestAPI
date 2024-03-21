@@ -3,12 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="apiTesting.WaysToHandlePOSTMethod">
+      <class name="apiTesting.ParseJson">
         <methods>
-          <include name="WaysPostMethod"/>
-          <include name="deleteRecord"/>
+          <include name="testJsonResponsevalidate"/>
         </methods>
-      </class> <!-- apiTesting.WaysToHandlePOSTMethod -->
+      </class> <!-- apiTesting.ParseJson -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
